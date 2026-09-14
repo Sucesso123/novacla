@@ -247,7 +247,7 @@ export default function App() {
                   <Headphones className="w-5 h-5 text-white" />
                 </div>
                 <div>
-                  <p className="text-white font-semibold text-sm">Equipe Claro</p>
+                  <p className="text-white font-semibold text-sm">Equipe Especializada</p>
                   <p className="text-brand-200/60 text-xs">Online agora</p>
                 </div>
                 <div className="ml-auto flex items-center gap-1.5">
@@ -443,7 +443,7 @@ export default function App() {
                   <MessageCircle className="w-5 h-5 text-white" />
                 </div>
                 <div>
-                  <span className="font-bold text-white text-lg block leading-none">Claro</span>
+                  <span className="font-bold text-white text-lg block leading-none">Especializado</span>
                   <span className="text-xs text-brand-200/40">Central de Atendimento</span>
                 </div>
               </div>
