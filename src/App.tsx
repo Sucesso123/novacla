@@ -160,7 +160,7 @@ export default function App() {
               <div className="absolute -bottom-1 -right-1 w-4 h-4 rounded-full bg-brand-400 border-2 border-white" />
             </div>
             <div>
-              <span className="font-bold text-lg tracking-tight block leading-none text-ink-800">Claro</span>
+              <span className="font-bold text-lg tracking-tight block leading-none text-ink-800">Atendimento ao Usuario</span>
               <span className="text-xs text-ink-400 font-medium">Central de Atendimento</span>
             </div>
           </div>
