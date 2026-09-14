@@ -211,7 +211,7 @@ export default function App() {
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-[1.1] mb-6 animate-fade-up">
               Central de Atendimento{' '}
-              <span className="text-gradient from-brand-200 to-brand-400">Claro</span>
+              <span className="text-gradient from-brand-200 to-brand-400">Entre em contato</span>
             </h1>
 
             <p className="text-brand-100/80 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto mb-10 animate-fade-up" style={{ animationDelay: '100ms' }}>
