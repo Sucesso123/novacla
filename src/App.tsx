@@ -20,7 +20,7 @@ import {
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 
-const WHATSAPP_NUMBER = '5519953224745';
+const WHATSAPP_NUMBER = '55119652888229';
 
 function createWhatsAppLink(message: string) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
@@ -172,7 +172,7 @@ export default function App() {
             <a href="#faq" className="text-sm text-ink-600 hover:text-brand-600 transition-colors font-medium">FAQ</a>
             <a href={`tel:+${WHATSAPP_NUMBER}`} className="flex items-center gap-2 text-sm text-ink-600 hover:text-brand-600 transition-colors font-medium">
               <Phone className="w-4 h-4" />
-              (19) 95322-4745
+              (11) 96528-8229
             </a>
           </nav>
 
@@ -188,7 +188,7 @@ export default function App() {
             <a href="#servicos" onClick={() => setMobileMenuOpen(false)} className="text-sm text-ink-600 hover:text-brand-600 font-medium">Serviços</a>
             <a href="#faq" onClick={() => setMobileMenuOpen(false)} className="text-sm text-ink-600 hover:text-brand-600 font-medium">FAQ</a>
             <a href={`tel:+${WHATSAPP_NUMBER}`} className="flex items-center gap-2 text-sm text-ink-600 font-medium">
-              <Phone className="w-4 h-4" /> (19) 95322-4745
+              <Phone className="w-4 h-4" /> (11) 96528-8229
             </a>
           </nav>
         )}
