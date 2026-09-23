@@ -172,7 +172,7 @@ export default function App() {
             <a href="#faq" className="text-sm text-ink-600 hover:text-brand-600 transition-colors font-medium">FAQ</a>
             <a href={`tel:+${WHATSAPP_NUMBER}`} className="flex items-center gap-2 text-sm text-ink-600 hover:text-brand-600 transition-colors font-medium">
               <Phone className="w-4 h-4" />
-              (11) 96207-0183
+              (19) 95322-4745
             </a>
           </nav>
 
