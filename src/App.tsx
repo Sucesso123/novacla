@@ -20,7 +20,7 @@ import {
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 
-const WHATSAPP_NUMBER = '5511960444936';
+const WHATSAPP_NUMBER = '5519953224745';
 
 function createWhatsAppLink(message: string) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
@@ -188,7 +188,7 @@ export default function App() {
             <a href="#servicos" onClick={() => setMobileMenuOpen(false)} className="text-sm text-ink-600 hover:text-brand-600 font-medium">Serviços</a>
             <a href="#faq" onClick={() => setMobileMenuOpen(false)} className="text-sm text-ink-600 hover:text-brand-600 font-medium">FAQ</a>
             <a href={`tel:+${WHATSAPP_NUMBER}`} className="flex items-center gap-2 text-sm text-ink-600 font-medium">
-              <Phone className="w-4 h-4" /> (11) 96207-0183
+              <Phone className="w-4 h-4" /> (19) 95322-4745
             </a>
           </nav>
         )}
@@ -465,7 +465,7 @@ export default function App() {
               <ul className="space-y-3 text-sm">
                 <li className="flex items-center gap-2">
                   <Phone className="w-4 h-4 text-brand-400" />
-                  <a href={`tel:+${WHATSAPP_NUMBER}`} className="hover:text-brand-300 transition-colors">(11) 96207-0183</a>
+                  <a href={`tel:+${WHATSAPP_NUMBER}`} className="hover:text-brand-300 transition-colors">(19) 95322-4745</a>
                 </li>
                 <li className="flex items-center gap-2">
                   <MessageCircle className="w-4 h-4 text-brand-400" />
