@@ -20,7 +20,7 @@ import {
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 
-const WHATSAPP_NUMBER = '55119652888229';
+const WHATSAPP_NUMBER = '5511965288229';
 
 function createWhatsAppLink(message: string) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
